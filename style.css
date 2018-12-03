@@ -1,0 +1,70 @@
+body{
+    background-color: #1e1e1e;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+input{
+    background-color: #333333;
+    color: #8cdcfe;
+    font-size: 1em;
+    border: none;
+    padding: 0.5em;
+}
+
+h1, h2, h3{
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: #962525;
+}
+
+h3{
+    font-size: 12px;
+    color: #f44747;
+}
+
+p{
+    text-align: center;
+    color: #499cb3;
+    font-size: 1.5em;
+}
+
+.result1, .result2, .result3, .result4, .result5, .result6, .result7, .result8, .result9, .result10, .result11, .result12, .result13, .result14, .result15, .result16{
+    color: #ce9178;
+    font-size: 1em;
+}
+
+.error{
+    color:red;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.curr1, .curr2, .curr3, .unit1, .unit2, .unit3, .unit4, .unit-extra{              display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+.para{
+    width: 100%;
+    position: fixed;
+    background-color: #333333;
+    margin-top: -11.5em;
+}
+
+.content{
+    margin-top: 11em;
+}
+
+button{
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 0.5em;
+}
+
+button:hover{
+    background-color: #5e5e5e;
+}

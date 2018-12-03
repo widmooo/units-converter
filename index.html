@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">    <title>Best Ever Converter</title>
+</head>
+<body>
+    
+
+    <div class="content">
+        <div class="para">
+            <h1> <font color="#499cb3">Best</font><font color="#ce9178">Ever</font><font color="#8cdcfe">Converter</font></h1>
+            <h2>Hi, this is my JavaScript playground. <br>You can convert here several units and currencies.</h2>
+            <h3>Currency exchange rates from 2 of December. Source: <a  href="https://www.money.pl/pieniadze/nbp/srednie/" target="_blank">MONEY.PL</a></h3>
+            </div>       
+
+        <div class="curr1">
+            <div class="curr1-a">
+                <p> $  → zł</p>
+                <input class="input1"type="number" placeholder="$" >    
+                <button class="calculate1">Calculate</button>
+                <div class="result1"></div>
+                <div class="error1"></div>
+            </div>
+            <div class="curr1-b">      
+                <p>zł  → $</p>
+                <input class="input2"type="number" placeholder="zł" >
+                <button class="calculate2">Calculate</button>   
+                <div class="result2"></div>
+                <div class="error2"></div>
+            </div> 
+        </div>
+        <div class="curr2">
+            <div class="curr2-a">
+                <p>$  → €</p>
+                <input class="input3"type="number" placeholder="$" >
+                <button class="calculate3">Calculate</button>
+                <div class="result3" ></div>
+                <div class="error3" ></div>
+            </div>
+            <div class="curr2-b">
+                <p>€  → $</p>
+                <input class="input4"type="number" placeholder="€" >
+                <button class="calculate4">Calculate</button>
+                <div class="result4" ></div>
+                <div class="error4" ></div>
+            </div>
+        </div>
+        <div class="curr3">
+            <div class="curr3-a">
+                <p>€ → zł</p>
+                <input class="input5"type="number" placeholder="€" >
+                <button class="calculate5">Calculate</button>
+                <div class="result5" ></div>
+                <div class="error5" ></div>
+            </div>
+            
+            <div class="curr3-b">
+                <p>zł → €</p>
+                <input class="input6"type="number" placeholder="zł" >
+                <button class="calculate6">Calculate</button>
+                <div class="result6" ></div>
+                <div class="error6" ></div>
+
+            </div>
+        </div>
+
+
+
+        <div class="unit1">
+            <div class="unit1-a">
+                <p>cm → ft</p>
+                <input class="input7"type="number" placeholder="cm" >
+                <button class="calculate7">Calculate</button>
+                <div class="result7" ></div>
+                <div class="error7" ></div>
+            </div>
+
+            <div class="unit1-b">
+                <p>ft → cm</p>
+                <input class="input8"type="number" placeholder="ft" >
+                <button class="calculate8">Calculate</button>
+                <div class="result8" ></div>
+                <div class="error8"></div>
+            </div>
+        </div>
+        <div class="unit2">
+            <div class="unit2-a">
+                <p>l → gal</p>
+                <input class="input9"type="number" placeholder="l" >
+                <button class="calculate9">Calculate</button>
+                <div class="result9" ></div>
+                <div class="error9" ></div>
+            </div>
+
+            <div class="unit2-b">
+                <p>gal → l</p>
+                <input class="input10"type="number" placeholder="gal" >
+                <button class="calculate10">Calculate</button>
+                <div class="result10"></div>
+                <div class="error10" ></div>
+            </div>        
+        </div>
+        <div class="unit3">
+            <div class="unit3-a">
+                <p>℃ → ℉</p>
+                <input class="input11"type="number" placeholder="℃" >
+                <button class="calculate11">Calculate</button>
+                <div class="result11" ></div>
+                <div class="error11" ></div>
+            </div>
+
+            <div class="unit3-b">
+                <p>℉ → ℃</p>
+                <input class="input12"type="number" placeholder="℉" >
+                <button class="calculate12">Calculate</button>
+                <div class="result12"></div>
+                <div class="error12" ></div>
+            </div>
+
+        </div>
+        <div class="unit4">
+                <div class="unit4-a">            
+                    <p>kph → mph</p>
+                    <input class="input13"type="number" placeholder="kph" >
+                    <button class="calculate13">Calculate</button>
+                    <div class="result13"></div>
+                    <div class="error13" ></div>
+                </div>
+    
+                <div class="unit4-b">
+                    <p>mph → kph</p>
+                    <input class="input14"type="number" placeholder="kph" >
+                    <button class="calculate14">Calculate</button>
+                    <div class="result14" ></div>
+                    <div class="error14" ></div>
+                </div>
+            </div>
+
+    
+        <div class="unit-extra">
+            <div class="unit1-extra-a">
+                <p>Power of 2 (x²)</p>
+                <input class="input15"type="number" placeholder="x" >
+                <button class="calculate15">Calculate</button>
+                <div class="result15" ></div>
+                <div class="error15" ></div>
+            </div>
+
+            <div class="unit1-extra-b">
+                <p>Square root of 2 (√x)</p>
+                <input class="input16"type="number" placeholder="x" >
+                <button class="calculate16">Calculate</button>
+                <div class="result16" ></div>
+                <div class="error16" ></div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
