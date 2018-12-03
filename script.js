@@ -286,7 +286,7 @@ const inp15ValuePower = Math.pow(inp15Value, 2);
 result15.innerText = (inp15.value) + (unit13) + (resultText) + inp15ValuePower
 })
 
-//////////////////////////////////////////
+////////////////////////////////////////
 
 const inp16 = document.querySelector(".input16")
 const btnCalc16 = document.querySelector(".calculate16")
