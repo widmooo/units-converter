@@ -46,7 +46,7 @@ const inp2Value = parseFloat(inp2.value)
 if(isNaN(inp2Value) ) {
 error2.innerText = " Please enter the value!"
 }
-const inp2ValueRound = inp2Value.toFixed(2);
+const inp2ValueRound = inp2Value.toFixed(2);        
 //Doesnt round the result to 2 decimal places :(
 result2.innerText = (inp2.value) + (unit1) + (resultText) + inp2ValueRound/ 3.77 + (unit2)
 })
@@ -103,7 +103,7 @@ if(isNaN(inp5Value) ) {
 error5.innerText = " Please enter the value!"
 }
 
-result5.innerText = (inp5.value) + (unit3) + (resultText) + inp5Value / 4.27 + (unit1)
+result5.innerText = (inp5.value) + (unit3) + (resultText) + inp5Value * 4.27 + (unit1)
 })
 
 ///////////////////////////////////////////
