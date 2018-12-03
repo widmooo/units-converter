@@ -42,7 +42,8 @@ p{
     font-weight: 500;
 }
 
-.curr1, .curr2, .curr3, .unit1, .unit2, .unit3, .unit4, .unit-extra{              display: flex;
+.curr1, .curr2, .curr3, .unit1, .unit2, .unit3, .unit4, .unit-extra{
+    display: flex;
     justify-content: space-evenly;
     margin-bottom: 3em;
 }
